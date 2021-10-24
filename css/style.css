@@ -3,10 +3,13 @@ nav, nav ul {
     flex-wrap: wrap;
     align-items: center;
     background-color: #1f2937;
-    color: #f9faf8;
-    padding: 0 10px;
+    padding: 0 6rem;
 }
-
+nav h4 {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0;
+}
 body {
     margin: 0;
 }
@@ -15,8 +18,119 @@ nav ul {
     margin-left: auto;
     list-style-type: none;
     gap: 8px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
-h1 {
-    color: red;
+.section-one h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.section-one {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 6rem;
+}
+
+.section-one button {
+  align-self: flex-start;
+  padding: 0.25rem 1.5rem;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  border: #3882f6;
+}
+
+.section-one p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+.section-one-one {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.section-one-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: grey;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.section-two-one {
+    display: flex;
+    gap: 3rem;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    padding: 6rem 10rem;
+}
+
+.section-three h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.section-three h4 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-four {
+    background-color: #3882f6;
+    margin: 3rem 8rem;
+    border-radius: 0.25rem;
+    padding: 1rem 4rem;
+    color: #f9faf8;
+    display: flex;
+}
+
+.section-four h4 {
+    color: #e5e7eb;
+}
+
+.section-four-two {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+.section-four button {
+    padding: 0.25rem 1.5rem;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    border: 2px solid #f9f9f9;
+}
+
+footer {
+    background-color:#1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
 }
